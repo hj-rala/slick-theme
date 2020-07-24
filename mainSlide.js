@@ -7,8 +7,6 @@
 			return '<button class="tab"><div class="s-indicator only-pc"><span class="inner-txt">' + $(slider.$slides[i]).find('.slide-item').attr('data-dot-title') + '</span></div><span class="s-line-fill"></span></button>';
 		},
 	});
-	setTimeout( function(){
-  		slideMove(0);
     },200);
 
 	// 마우스 더미에 올렸을 때 멈추도록
